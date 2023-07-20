@@ -1,0 +1,100 @@
+{
+    "success": true,
+    "data": {
+        "id": 3552,
+        "company_id": 7852683,
+        "owner_id": {
+            "id": 12019134,
+            "name": "Test1",
+            "email": "tes@test.gmail.comk",
+            "has_pic": 0,
+            "pic_hash": null,
+            "active_flag": true,
+            "value": 12019134
+        },
+        "org_id": null,
+        "name": "Jacob Aorth",
+        "first_name": "Jacob",
+        "last_name": "Aorth",
+        "open_deals_count": 0,
+        "related_open_deals_count": 0,
+        "closed_deals_count": 1,
+        "related_closed_deals_count": 0,
+        "participant_open_deals_count": 0,
+        "participant_closed_deals_count": 0,
+        "email_messages_count": 17,
+        "activities_count": 0,
+        "done_activities_count": 0,
+        "undone_activities_count": 0,
+        "files_count": 0,
+        "notes_count": 0,
+        "followers_count": 1,
+        "won_deals_count": 1,
+        "related_won_deals_count": 0,
+        "lost_deals_count": 0,
+        "related_lost_deals_count": 0,
+        "active_flag": true,
+        "phone": [
+            {
+                "label": "work",
+                "value": "23434663",
+                "primary": true
+            }
+        ],
+        "email": [
+            {
+                "label": "work",
+                "value": "jaajorth@hotmail.com",
+                "primary": true
+            }
+        ],
+        "first_char": "j",
+        "update_time": "2023-03-10 13:10:37",
+        "delete_time": null,
+        "add_time": "2021-06-22 11:55:59",
+        "visible_to": "7",
+        "picture_id": null,
+        "next_activity_date": null,
+        "next_activity_time": null,
+        "next_activity_id": null,
+        "last_activity_id": null,
+        "last_activity_date": null,
+        "last_incoming_mail_time": null,
+        "last_outgoing_mail_time": "2021-06-22 12:23:55",
+        "label": 1,
+        "org_name": null,
+        "marketing_status": "no_consent",
+        "doi_status": 1,
+        "cc_email": "test@pipedrivemail.com",
+        "primary_email": "jaajorth@hotmail.com",
+        "owner_name": "Test1",
+        "7141dcde9eb9178bd829402a7934d130ebe0c051": "AASej 205, 8453 Hammel, Denmark",
+        "7141dcde9eb9178bd829402a7934d130ebe0c051_subpremise": "",
+        "7141dcde9eb9178bd829402a7934d130ebe0c051_street_number": "205",
+        "7141dcde9eb9178bd829402a7934d130ebe0c051_route": "AASej",
+        "7141dcde9eb9178bd829402a7934d130ebe0c051_sublocality": "",
+        "7141dcde9eb9178bd829402a7934d130ebe0c051_locality": "Hammel",
+        "7141dcde9eb9178bd829402a7934d130ebe0c051_admin_area_level_1": "",
+        "7141dcde9eb9178bd829402a7934d130ebe0c051_admin_area_level_2": "",
+        "7141dcde9eb9178bd829402a7934d130ebe0c051_country": "Denmark",
+        "7141dcde9eb9178bd829402a7934d130ebe0c051_postal_code": "8453",
+        "7141dcde9eb9178bd829402a7934d130ebe0c051_formatted_address": "AASej 205, 8453 Hammel, Denmark",
+        "18b7c33fa1fa784fad4dee6a472bafd31292d7be": "8450",
+        "12dbb002a9b20876d14afc76506579400a0f00f8": null
+    },
+    "additional_data": {
+        "dropbox_email": "test@pipedrivemail.com"
+    },
+    "related_objects": {
+        "user": {
+            "12019134": {
+                "id": 12019134,
+                "name": "Test1",
+                "email": "tes@test.gmail.comk",
+                "has_pic": 0,
+                "pic_hash": null,
+                "active_flag": true
+            }
+        }
+    }
+}

@@ -1,0 +1,195 @@
+{
+    "success": true,
+    "data": {
+        "id": 13271,
+        "creator_user_id": {
+            "id": 164831,
+            "name": "Jan",
+            "email": "jan@test.dk",
+            "has_pic": 1,
+            "pic_hash": "538260d5dac05b9cc47d28dafeda3536",
+            "active_flag": true,
+            "value": 164831
+        },
+        "user_id": {
+            "id": 164831,
+            "name": "Jan",
+            "email": "jan@test.dk",
+            "has_pic": 1,
+            "pic_hash": "538260d5dac05b9cc47d28dafeda3536",
+            "active_flag": true,
+            "value": 164831
+        },
+        "person_id": {
+            "active_flag": true,
+            "name": "Brian Eg",
+            "email": [
+                {
+                    "label": "",
+                    "value": "en@gmail.com",
+                    "primary": true
+                }
+            ],
+            "phone": [
+                {
+                    "label": "work",
+                    "value": "2122122",
+                    "primary": true
+                }
+            ],
+            "owner_id": 12019134,
+            "value": 1747
+        },
+        "org_id": {
+            "name": "Srvis ab",
+            "people_count": 0,
+            "owner_id": 164831,
+            "address": "Copenhagen 3, 286 73, Denmark",
+            "active_flag": true,
+            "cc_email": "test@pipedrivemail.com",
+            "owner_name": "Jan",
+            "value": 5012
+        },
+        "stage_id": 237,
+        "title": "Test Gade deal",
+        "value": 2573.35,
+        "currency": "DKK",
+        "add_time": "2022-02-21 00:00:00",
+        "update_time": "2022-02-21 08:12:14",
+        "stage_change_time": null,
+        "active": false,
+        "deleted": false,
+        "status": "won",
+        "probability": null,
+        "next_activity_date": null,
+        "next_activity_time": null,
+        "next_activity_id": null,
+        "last_activity_id": null,
+        "last_activity_date": null,
+        "lost_reason": null,
+        "visible_to": "3",
+        "close_time": "2022-02-21 00:00:00",
+        "pipeline_id": 99,
+        "won_time": "2022-02-21 00:00:00",
+        "first_won_time": "2021-12-01 23:00:00",
+        "lost_time": null,
+        "products_count": 1,
+        "files_count": 0,
+        "notes_count": 0,
+        "followers_count": 2,
+        "email_messages_count": 0,
+        "activities_count": 0,
+        "done_activities_count": 0,
+        "undone_activities_count": 0,
+        "participants_count": 0,
+        "expected_close_date": "2020-02-21",
+        "last_incoming_mail_time": null,
+        "last_outgoing_mail_time": null,
+        "label": null,
+        "stage_order_nr": 3,
+        "person_name": null,
+        "org_name": "Skånes Fagerhult Byggeservis ab",
+        "next_activity_subject": null,
+        "next_activity_type": null,
+        "next_activity_duration": null,
+        "next_activity_note": null,
+        "formatted_value": "2.573,35 kr.",
+        "weighted_value": 2573.35,
+        "formatted_weighted_value": "2.573,35 kr.",
+        "weighted_value_currency": "DKK",
+        "rotten_time": null,
+        "owner_name": "Jan test",
+        "cc_email": "test@pipedrivemail.com",
+        "org_hidden": false,
+        "person_hidden": false,
+        "average_time_to_won": {
+            "y": 0,
+            "m": 0,
+            "d": 0,
+            "h": 0,
+            "i": 0,
+            "s": 0,
+            "total_seconds": 0
+        },
+        "average_stage_progress": 0,
+        "age": {
+            "y": 0,
+            "m": 0,
+            "d": 0,
+            "h": 0,
+            "i": 0,
+            "s": 0,
+            "total_seconds": 0
+        },
+        "stay_in_pipeline_stages": {
+            "times_in_stages": {
+                "235": 0,
+                "236": 0,
+                "237": 1
+            },
+            "order_of_stages": [
+                235,
+                236,
+                237
+            ]
+        },
+        "last_activity": null,
+        "next_activity": null
+    },
+    "additional_data": {
+        "dropbox_email": "test@pipedrivemail.com"
+    },
+    "related_objects": {
+        "user": {
+            "164831": {
+                "id": 164831,
+                "name": "Jan test",
+                "email": "jan@test.dk",
+                "has_pic": 1,
+                "pic_hash": "538260d5dac05b9cc47d28dafeda3536",
+                "active_flag": true
+            }
+        },
+        "organization": {
+            "5012": {
+                "id": 5012,
+                "name": "Skånes Fagerhult Byggeservis ab",
+                "people_count": 0,
+                "owner_id": 164831,
+                "address": "Björkgatan 3, 286 73 Skånes Fagerhult, Sweden",
+                "active_flag": true,
+                "cc_email": "test@pipedrivemail.com",
+                "owner_name": "Jan test"
+            }
+        },
+        "pipeline": {
+            "99": {
+                "id": 99,
+                "name": "Torpare",
+                "url_title": "Torpare",
+                "order_nr": 49,
+                "active": true,
+                "deal_probability": true,
+                "add_time": "2019-08-27 12:35:33",
+                "update_time": "2023-01-18 08:23:33"
+            }
+        },
+        "stage": {
+            "237": {
+                "id": 237,
+                "company_id": 109013,
+                "order_nr": 3,
+                "name": "Last-minute",
+                "active_flag": true,
+                "deal_probability": 0,
+                "pipeline_id": 99,
+                "rotten_flag": false,
+                "rotten_days": null,
+                "add_time": "2019-08-27 12:35:33",
+                "update_time": "2019-11-21 13:05:04",
+                "pipeline_name": "Torpare",
+                "pipeline_deal_probability": true
+            }
+        }
+    }
+}

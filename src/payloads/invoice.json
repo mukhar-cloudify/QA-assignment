@@ -1,0 +1,88 @@
+{
+    "draftInvoiceNumber": 1740,
+    "soap": {
+        "currentInvoiceHandle": {
+            "id": 1272
+        }
+    },
+    "templates": {
+        "bookingInstructions": "https://restapi.e-conomic.com/invoices/drafts/1740/templates/booking-instructions",
+        "self": "https://restapi.e-conomic.com/invoices/drafts/1740/templates"
+    },
+    "lines": [
+        {
+            "lineNumber": 1,
+            "sortKey": 1,
+            "description": "Renewal: Licens til analyseværktøjet defgo",
+            "unit": {
+                "unitNumber": 1,
+                "name": "stk.",
+                "products": "https://restapi.e-conomic.com/units/1/products",
+                "self": "https://restapi.e-conomic.com/units/1"
+            },
+            "product": {
+                "productNumber": "83",
+                "self": "https://restapi.e-conomic.com/products/83"
+            },
+            "quantity": 1.00,
+            "unitNetPrice": 2988.00,
+            "discountPercentage": 0.00,
+            "unitCostPrice": 0.00,
+            "totalNetAmount": 2988.00,
+            "marginInBaseCurrency": 2988.00,
+            "marginPercentage": 100.00
+        }
+    ],
+    "date": "2023-04-27",
+    "currency": "DKK",
+    "exchangeRate": 100.000000,
+    "netAmount": 2988.000000,
+    "netAmountInBaseCurrency": 2988.00,
+    "grossAmount": 3735.000000,
+    "grossAmountInBaseCurrency": 3735.00,
+    "marginInBaseCurrency": 2988.0000,
+    "marginPercentage": 100.00,
+    "vatAmount": 747.000000,
+    "roundingAmount": 0.00,
+    "costPriceInBaseCurrency": 0.0000,
+    "dueDate": "2023-04-27",
+    "paymentTerms": {
+        "paymentTermsNumber": 3,
+        "daysOfCredit": 0,
+        "name": "Til omgående betaling",
+        "paymentTermsType": "net",
+        "self": "https://restapi.e-conomic.com/payment-terms/3"
+    },
+    "customer": {
+        "customerNumber": 996918473,
+        "self": "https://restapi.e-conomic.com/customers/996918473"
+    },
+    "recipient": {
+        "name": "Tesst",
+        "address": "Address",
+        "zip": "15421",
+        "city": "City",
+        "country": "Denmark",
+        "vatZone": {
+            "name": "Domestic",
+            "vatZoneNumber": 1,
+            "enabledForCustomer": true,
+            "enabledForSupplier": true,
+            "self": "https://restapi.e-conomic.com/vat-zones/1"
+        },
+        "cvr": "101010101010"
+    },
+    "notes": {
+        "heading": "Test note",
+        "textLine1": "Testing 1"
+    },
+    "layout": {
+        "layoutNumber": 21,
+        "self": "https://restapi.e-conomic.com/layouts/21"
+    },
+    "pdf": {
+        "download": "https://restapi.e-conomic.com/invoices/drafts/1740/pdf"
+    },
+    "lastUpdated": "2023-04-27T11:52:00Z",
+    "self": "https://restapi.e-conomic.com/invoices/drafts/1740"
+}

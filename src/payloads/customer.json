@@ -1,0 +1,61 @@
+{
+    "customerNumber": 1,
+    "currency": "DKK",
+    "paymentTerms": {
+        "paymentTermsNumber": 1,
+        "self": "https://restapi.e-conomic.com/payment-terms/1"
+    },
+    "customerGroup": {
+        "customerGroupNumber": 1,
+        "self": "https://restapi.e-conomic.com/customer-groups/1"
+    },
+    "address": "Test Address",
+    "balance": 1679.55,
+    "dueAmount": 1679.55,
+    "corporateIdentificationNumber": "123",
+    "city": "Test City",
+    "country": "Test Country",
+    "email": "test1@gmail.com",
+    "name": "Test",
+    "zip": "123654",
+    "vatZone": {
+        "vatZoneNumber": 1,
+        "self": "https://restapi.e-conomic.com/vat-zones/1"
+    },
+    "layout": {
+        "layoutNumber": 21,
+        "self": "https://restapi.e-conomic.com/layouts/21"
+    },
+    "lastUpdated": "2022-05-24T09:42:14Z",
+    "contacts": "https://restapi.e-conomic.com/customers/1/contacts",
+    "templates": {
+        "invoice": "https://restapi.e-conomic.com/customers/1/templates/invoice",
+        "invoiceLine": "https://restapi.e-conomic.com/customers/1/templates/invoiceline",
+        "self": "https://restapi.e-conomic.com/customers/1/templates"
+    },
+    "totals": {
+        "drafts": "https://restapi.e-conomic.com/invoices/totals/drafts/customers/1",
+        "booked": "https://restapi.e-conomic.com/invoices/totals/booked/customers/1",
+        "self": "https://restapi.e-conomic.com/customers/1/totals"
+    },
+    "deliveryLocations": "https://restapi.e-conomic.com/customers/1/delivery-locations",
+    "invoices": {
+        "drafts": "https://restapi.e-conomic.com/customers/1/invoices/drafts",
+        "booked": "https://restapi.e-conomic.com/customers/1/invoices/booked",
+        "self": "https://restapi.e-conomic.com/customers/1/invoices"
+    },
+    "eInvoicingDisabledByDefault": false,
+    "metaData": {
+        "delete": {
+            "description": "Delete this customer.",
+            "href": "https://restapi.e-conomic.com/customers/1",
+            "httpMethod": "delete"
+        },
+        "replace": {
+            "description": "Replace this customer.",
+            "href": "https://restapi.e-conomic.com/customers/1",
+            "httpMethod": "put"
+        }
+    },
+    "self": "https://restapi.e-conomic.com/customers/1"
+}

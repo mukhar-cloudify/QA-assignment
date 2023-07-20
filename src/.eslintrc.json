@@ -1,0 +1,67 @@
+{
+    "env": {
+        "es6": true,
+        "node": true,
+        "es2022": true
+    },
+    "rules": {
+        "no-constant-binary-expression": "error",
+        "no-use-before-define": "error",
+        "no-constructor-return": "error",
+        "no-duplicate-imports": "error",
+        "no-self-compare": "error",
+        "no-template-curly-in-string": "error",
+        "no-unreachable-loop": "error",
+        "require-atomic-updates": "error",
+        "capitalized-comments": "error",
+        "complexity": "warn",
+        "consistent-return": "error",
+        "default-case": "error",
+        "default-case-last": "error",
+        "default-param-last": "warn",
+        "dot-notation": "error",
+        "func-style": "error",
+        "guard-for-in": "error",
+        "id-length": ["error", { "min": 2, "exceptionPatterns": ["[i-l]"] }],
+        "multiline-comment-style": "error",
+        "no-empty-function": "error",
+        "no-eval": "error",
+        "no-extra-bind": "error",
+        "no-floating-decimal": "error",
+        "no-implicit-coercion": "error",
+        "no-labels": "error",
+        "no-lone-blocks": "error",
+        "no-lonely-if": "error",
+        "no-loop-func": "error",
+        "no-magic-numbers": [
+            "error",
+            {
+                "ignoreDefaultValues": true,
+                "ignoreArrayIndexes": true,
+                "ignore": [-1, 0, 1, 2, 3]
+            }
+        ],
+        "no-mixed-operators": "error",
+        "no-multi-str": "error",
+        "no-nested-ternary": "error",
+        "no-param-reassign": "error",
+        "no-undefined": "error",
+        "no-useless-concat": "error",
+        "no-useless-return": "error",
+        "no-var": "error",
+        "prefer-const": "error",
+        "require-await": "error",
+        "spaced-comment": "error",
+        "yoda": "error",
+        "camelcase": [
+            "error",
+            { "properties": "never", "ignoreImports": true }
+        ],
+        "eqeqeq": ["error", "smart"],
+        "no-new": "error"
+    },
+    "extends": ["eslint:recommended", "prettier"],
+    "parserOptions": {
+        "sourceType": "module"
+    }
+}

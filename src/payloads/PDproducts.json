@@ -1,0 +1,41 @@
+{
+    "success": true,
+    "data": [
+        {
+            "id": 2,
+            "deal_id": 51,
+            "product_id": 83,
+            "product_variation_id": null,
+            "name": null,
+            "order_nr": 0,
+            "item_price": 72500,
+            "quantity": 1,
+            "discount_percentage": 0,
+            "duration": 1,
+            "duration_unit": null,
+            "sum_no_discount": 0,
+            "sum": 72500,
+            "currency": "DKK",
+            "active_flag": true,
+            "enabled_flag": true,
+            "add_time": "2023-01-02 19:36:32",
+            "last_edit": "2023-01-02 19:39:42",
+            "comments": null,
+            "tax": 0,
+            "quantity_formatted": "1",
+            "sum_formatted": "DKK72.500",
+            "product": null
+        }
+    ],
+    "additional_data": {
+        "products_quantity_total": 1,
+        "products_sum_total": 72500,
+        "products_quantity_total_formatted": "1",
+        "products_sum_total_formatted": "72.500 kr.",
+        "pagination": {
+            "start": 0,
+            "limit": 100,
+            "more_items_in_collection": false
+        }
+    }
+}

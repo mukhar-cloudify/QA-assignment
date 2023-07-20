@@ -1,0 +1,54 @@
+{
+    "success": true,
+    "data": {
+        "id": 83,
+        "name": "Renewal: Licens til analyseværktøjet defgo",
+        "code": "1301",
+        "description": null,
+        "unit": null,
+        "tax": 0,
+        "category": "28",
+        "active_flag": true,
+        "selectable": true,
+        "first_char": "r",
+        "visible_to": "7",
+        "owner_id": {
+            "id": 15572344,
+            "name": "Risen",
+            "email": "rama@test.dk",
+            "has_pic": 0,
+            "pic_hash": null,
+            "active_flag": true,
+            "value": 15572344
+        },
+        "files_count": null,
+        "add_time": "2023-01-13 14:09:12",
+        "update_time": "2023-02-02 14:56:59",
+        "prices": [
+            {
+                "id": 83,
+                "product_id": 83,
+                "price": 25000,
+                "currency": "DKK",
+                "cost": 0,
+                "overhead_cost": 0,
+                "price_formatted": "DKK25.000"
+            }
+        ],
+        "product_variations": [],
+        "5095bbc684af6b38978bed3b55902ba94469809c": null,
+        "4daa3dbfc39d83455020a24dbfdfaa5076c6710d": null
+    },
+    "related_objects": {
+        "user": {
+            "15572344": {
+                "id": 15572344,
+                "name": "Risen",
+                "email": "rama@test.dk",
+                "has_pic": 0,
+                "pic_hash": null,
+                "active_flag": true
+            }
+        }
+    }
+}

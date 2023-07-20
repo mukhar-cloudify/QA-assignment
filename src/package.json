@@ -1,0 +1,38 @@
+{
+    "name": "test",
+    "version": "0.0.0",
+    "description": "test",
+    "author": "test",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "lint": "eslint **/*.js --ignore-pattern node_modules/",
+        "commitlint": "npx commitlint --edit",
+        "release": "commit-and-tag-version",
+        "release:minor": "commit-and-tag-version --release-as minor",
+        "release:patch": "commit-and-tag-version --release-as patch",
+        "release:major": "commit-and-tag-version --release-as major"
+    },
+    "dependencies": {
+        "form-data": "^4.0.0",
+        "axios": "^0.27.2"
+    },
+    "devDependencies": {
+        "@commitlint/cli": "17.0.0",
+        "@commitlint/config-conventional": "17.0.0",
+        "eslint": "8.15.0",
+        "eslint-config-prettier": "8.5.0",
+        "husky": "8.0.1",
+        "lint-staged": "^13.0.1",
+        "prettier": "2.6.2",
+        "commit-and-tag-version": "^10.0.1"
+    },
+    "lint-staged": {
+        "*.{js,ts}": [
+            "prettier --write",
+            "eslint --fix"
+        ]
+    },
+    "publish": false,
+    "packageManager": "pnpm@8.3.1"
+}
